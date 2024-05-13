@@ -114,11 +114,17 @@ En que casos deshacemos los cambios?
 COMANDOS DESTRUCTIVOS Y NO DESTRUCTIVOS:
 
 $ git reset --hard <hash commit> .- me elimina todos los commits arriba del hash commit qe seleccionas, tambien me elimina las modificaciones de codigo
+
 $ git reset --soft <hash commit> .- me elimina todos los commits arriba del hash commit qe seleccionas, en este caso me conserva las modificaciones hechas
+
 $ git reset --soft HEAD ~n
+
 $ git reset --abort 
+
 $ git restore 
+
 $ git revert .- staged vuelve a modified
+
 $ git revert <hash commit>.- genera conflictos al hacer git revert
 
 
